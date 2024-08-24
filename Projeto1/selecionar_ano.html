@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Selecionar Ano">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Plataforma Interativa para monitorização de furacões no Atlântico Norte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <style>
+        h2 {
+            color: #80808080; /* Cor laranja para os títulos */
+        }
+        h3 {
+            color: #FFFFFF80; /* Cor dourada para os subtítulos */
+        }
+        .divider {
+            border-top: 2px solid #FFF; /* Linha branca */
+            margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+        }
+    </style>
+</head>
+<body class="d-flex h-100 text-center text-bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0"><a href="index.html"><img src="images/logo.png" alt="logo" width="220px" height="60px"></a></h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link fw-bold py-1 px-0" href="index.html">Home</a>
+                <a class="nav-link fw-bold py-1 px-0 active" href="Arquivos.html">Arquivos</a>
+                <a class="nav-link fw-bold py-1 px-0" href="Sobre.html">Sobre</a>
+            </nav>
+        </div>
+    </header>
+    <main class="px-3">
+        <div class="container">
+            <h1>Selecione o Ano</h1>
+            <form id="form-ano" class="form-inline">
+                <select id="ano-selecao" class="form-control mb-2 mr-sm-2">
+                    <!-- Anos serão adicionados dinamicamente -->
+                </select>
+                <button type="submit" class="btn btn-primary mb-2">Ver Arquivos</button>
+            </form>
+        </div>
+
+        <div class="divider"></div> <!-- Linha divisória -->
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>O que é um Furacão?</h2>
+                    <p>Um furacão é uma poderosa tempestade tropical que se forma sobre águas quentes do oceano. Eles são conhecidos por seus ventos fortes, chuvas intensas e podem causar grandes danos quando chegam à terra.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h2>Como os Furacões se Formam?</h2>
+                    <p>Os furacões se formam quando a água do oceano está quente, geralmente acima de 26,5 graus Celsius. O ar quente e úmido sobe da superfície do oceano, criando uma área de baixa pressão. A rotação da Terra faz com que o ar que se move para essa área de baixa pressão comece a girar. Se as condições forem favoráveis, a tempestade continua a crescer e pode se transformar em um furacão.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h2>Partes de um Furacão</h2>
+                    <p>Um furacão tem várias partes importantes:</p>
+                    <p><strong>Olho do Furacão:</strong> A parte central calma do furacão, onde o tempo é geralmente claro e os ventos são leves.</p>
+                    <p><strong>Parede do Olho:</strong> A área ao redor do olho, onde os ventos são mais fortes e a chuva é mais intensa.</p>
+                    <p><strong>Banda de Chuva:</strong> Faixas de nuvens e tempestades que se estendem para fora da parede do olho.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Classificação dos Furacões</h2>
+                    <p>Os furacões são classificados com base na velocidade dos ventos usando a Escala Saffir-Simpson:</p>
+                    <p><strong>Categoria 1:</strong> Ventos de 119-153 km/h (danos mínimos).</p>
+                    <p><strong>Categoria 2:</strong> Ventos de 154-177 km/h (danos moderados).</p>
+                    <p><strong>Categoria 3:</strong> Ventos de 178-208 km/h (danos extensivos).</p>
+                    <p><strong>Categoria 4:</strong> Ventos de 209-251 km/h (danos extremos).</p>
+                    <p><strong>Categoria 5:</strong> Ventos acima de 252 km/h (danos catastróficos).</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h2>Efeitos dos Furacões</h2>
+                    <p>Os furacões podem ter vários efeitos devastadores:</p>
+                    <p><strong>Ventos Fortes:</strong> Podem arrancar árvores, danificar casas e derrubar linhas de energia.</p>
+                    <p><strong>Chuvas Intensas:</strong> Podem causar inundações severas em áreas baixas.</p>
+                    <p><strong>Ondas de Tempestade:</strong> Aumento no nível do mar que pode inundar áreas costeiras.</p>
+                    <p><strong>Deslizamentos de Terra:</strong> Em áreas montanhosas, as chuvas podem causar deslizamentos de terra.</p>
+                </div>
+            </div>
+
+            <div class="divider"></div> <!-- Linha divisória -->
+
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h2>Como se Preparar para um Furacão</h2>
+                    <h3>Antes do Furacão</h3>
+                    <p><strong>Plano de Emergência:</strong> Desenvolva um plano com sua família para saber o que fazer e para onde ir.</p>
+                    <p><strong>Kit de Emergência:</strong> Tenha um kit com água, alimentos não perecíveis, lanternas, pilhas, medicamentos e documentos importantes.</p>
+                    <p><strong>Proteção da Casa:</strong> Proteja janelas com persianas ou tábuas, reforce portas e telhados.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h3>Durante o Furacão</h3>
+                    <p><strong>Abrigo:</strong> Fique em um lugar seguro, longe de janelas.</p>
+                    <p><strong>Informação:</strong> Mantenha-se informado através do rádio ou da televisão sobre as atualizações do furacão.</p>
+                    <p><strong>Segurança:</strong> Evite sair de casa até que seja seguro.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Depois do Furacão</h3>
+                    <p><strong>Cuidado:</strong> Tenha cuidado ao sair, verificando por fios de energia caídos e outros perigos.</p>
+                    <p><strong>Ajuda:</strong> Ajude seus vizinhos e siga as orientações das autoridades.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h2>Curiosidades sobre Furacões</h2>
+                    <h3>Nomes dos Furacões</h3>
+                    <p>Os furacões recebem nomes para facilitar a comunicação e evitar confusões. A Organização Meteorológica Mundial tem listas de nomes que são usados em ciclos de seis anos.</p>
+
+                    <h3>Recordes de Furacões</h3>
+                    <p><strong>Furacão Katrina:</strong> Em 2005, foi um dos mais devastadores, causando grandes inundações em Nova Orleans, EUA.</p>
+                    <p><strong>Furacão Patricia:</strong> Em 2015, foi o furacão mais forte já registrado no Hemisfério Ocidental.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h3>Furacão vs. Tufão vs. Ciclone</h3>
+                    <p>São o mesmo tipo de tempestade, mas recebem nomes diferentes dependendo da região. Furacões ocorrem no Atlântico Norte e no Nordeste do Pacífico, tufões no Noroeste do Pacífico, e ciclones em outras regiões.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h2>Importância da Ciência e Tecnologia</h2>
+                    <h3>Monitoramento e Previsão</h3>
+                    <p><strong>Satélites:</strong> Observam os furacões do espaço, fornecendo imagens e dados importantes.</p>
+                    <p><strong>Aviões de Reconhecimento:</strong> Voam para dentro dos furacões para coletar dados detalhados.</p>
+                    <p><strong>Modelos de Computador:</strong> Usados para prever a trajetória e a intensidade dos furacões.</p>
+
+                    <div class="divider"></div> <!-- Linha divisória -->
+
+                    <h3>Educação e Conscientização</h3>
+                    <p>Ensinar as pessoas sobre os riscos dos furacões e como se preparar pode salvar vidas.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-auto text-white-50">
+        <p></p>
+    </footer>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('furacoes.json')
+            .then(response => response.json())
+            .then(data => {
+                const anos = new Set();
+                data.forEach(furacao => {
+                    const ano = furacao.data[0].data_hora.substring(0, 4);
+                    if (parseInt(ano, 10) >= 1970) {
+                        anos.add(ano);
+                    }
+                });
+                const select = document.getElementById("ano-selecao");
+                const sortedAnos = Array.from(anos).sort((a, b) => b - a);
+                sortedAnos.forEach(ano => {
+                    const option = document.createElement("option");
+                    option.value = ano;
+                    option.textContent = ano;
+                    select.appendChild(option);
+                });
+            });
+
+        document.getElementById("form-ano").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const selectedYear = document.getElementById("ano-selecao").value;
+            window.location.href = `arquivos.html?ano=${selectedYear}`;
+        });
+    });
+</script>
+</body>
+</html>
